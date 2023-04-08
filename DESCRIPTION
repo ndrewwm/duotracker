@@ -1,0 +1,15 @@
+Package: duotracker
+Title: Pull User Profile Statistics from Duolingo
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andrew", family = "Moore", email = "hello@ndrewwm.com", role = c("aut", "cre"))
+Description: Pulls 4 publicly available metrics from a user's Duolingo profile page using RSelenium and rvest.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports:
+    rvest,
+    RSelenium,
+    lubridate,
+    readr
