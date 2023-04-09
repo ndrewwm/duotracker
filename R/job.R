@@ -3,7 +3,7 @@ library(readr)
 library(RSelenium)
 library(lubridate)
 
-source("get_profile_details.R")
+source("R/get_profile_details.R")
 
 run <- get_profile_metrics("amateurthoughts")
 
