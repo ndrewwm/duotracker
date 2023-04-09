@@ -24,6 +24,7 @@ jobs:
           install.packages("RSelenium")
           install.packages("rvest")
           install.packages("lubridate")
+          install.packages("readr")
         shell: Rscript {0}
           
       - name: Generate data
